@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget", "ScheduleWidget\ScheduleWidget.csproj", "{6F85DBEE-A6BA-4C39-89ED-4527535F1456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget.Application", "ScheduleWidget.Application\ScheduleWidget.Application.csproj", "{CC14D6DE-DB0C-4523-AB44-454751B7A420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6F85DBEE-A6BA-4C39-89ED-4527535F1456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F85DBEE-A6BA-4C39-89ED-4527535F1456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F85DBEE-A6BA-4C39-89ED-4527535F1456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
