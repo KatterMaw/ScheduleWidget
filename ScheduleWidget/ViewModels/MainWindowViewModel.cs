@@ -1,6 +1,6 @@
 ﻿namespace ScheduleWidget.ViewModels;
 
-public class MainWindowViewModel : ViewModelBase
+public class MainWindowViewModel : ViewModel
 {
 	public string Greeting => "Welcome to Avalonia!";
 }
