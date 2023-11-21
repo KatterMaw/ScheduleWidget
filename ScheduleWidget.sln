@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget", "ScheduleW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget.Application", "ScheduleWidget.Application\ScheduleWidget.Application.csproj", "{CC14D6DE-DB0C-4523-AB44-454751B7A420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget.Domain", "ScheduleWidget.Domain\ScheduleWidget.Domain.csproj", "{C78D3EEF-A473-46A4-A9D5-0D1048262223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{17D0D553-C91A-4FE2-837B-6C479A5BF181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget.Domain.Tests", "ScheduleWidget.Domain.Tests\ScheduleWidget.Domain.Tests.csproj", "{DD7472FC-5B52-4465-B012-01B5BFDC593E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,16 @@ Global
 		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC14D6DE-DB0C-4523-AB44-454751B7A420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78D3EEF-A473-46A4-A9D5-0D1048262223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78D3EEF-A473-46A4-A9D5-0D1048262223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78D3EEF-A473-46A4-A9D5-0D1048262223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78D3EEF-A473-46A4-A9D5-0D1048262223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7472FC-5B52-4465-B012-01B5BFDC593E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7472FC-5B52-4465-B012-01B5BFDC593E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7472FC-5B52-4465-B012-01B5BFDC593E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7472FC-5B52-4465-B012-01B5BFDC593E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD7472FC-5B52-4465-B012-01B5BFDC593E} = {17D0D553-C91A-4FE2-837B-6C479A5BF181}
 	EndGlobalSection
 EndGlobal
